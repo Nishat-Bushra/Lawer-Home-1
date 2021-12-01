@@ -1,0 +1,259 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1 h2 h3 h4 h5 h6{
+font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header-section{
+width: 100%;
+}
+.header-section .bg-light{
+background: #fff !important;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #28377e;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 15px;
+
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, 
+.header-section .navbar-light .navbar-nav .nav-link:focus{
+color: #f15f29;
+}
+.slider-section{
+	width: 100%;
+	padding: 125px 0px 40px;
+	background: url("../imagess/banner.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.slider-section h1{
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 62px;
+	text-transform: uppercase;
+	color: #fff;
+}
+ .arrow{
+width: 100%;
+padding: 110px 0px 10px;
+}
+.tittle{
+	width: 100%;
+}
+.tittle img{
+	margin-bottom: 15px;
+}
+.tittle h2{
+font-size: 48px;
+	font-weight: 700;
+	line-height: 58px;
+	text-transform: uppercase;
+	color: #1f4f87;
+}
+.who-we-section{
+	width: 100%;
+	padding: 80px 0px;
+
+}
+.who-we-section .tittle{
+	margin: 40px 0px 0px;
+}
+
+.who-we-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	
+	color: #b0b0b1;
+}
+.who-img{
+width: 100%;
+text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 0px;
+background: url("../imagess/img2.png") center top no-repeat;
+background-size: cover;
+}
+.what-we-do .tittle{
+	text-align: center;
+	padding: 0px 0px 50px;
+
+}
+.what-we-do .card{
+	border-radius: 0px;
+	border: 0px;
+}
+.what-we-do .card .card-body{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 40%;
+}
+.what-we-do .card .card-body .card-title{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 32px;
+	color: #fff;
+}
+.what-we-do .card .card-body .arrows{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
+.attorney{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../imagess/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.attorney .tittle{
+	width: 100%;
+	margin: 80px 0px 0px;
+}
+.attorney .tittle h2{
+	color: #fff;
+}
+.attorney .tittle p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #929dcf;
+}
+.attorney .tittle .btn-light{
+	background: transparent;
+	padding: 0px;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #f15f29;
+	border: 0px;
+
+}
+.inner-attorney{
+	width: 100%;
+
+}
+.inner-attorney .card{
+	border-radius: 0px;
+	border: 0px;
+	margin-bottom: 20px;
+}
+.inner-attorney .card .card-body{
+	position: absolute;
+	width: 100%;
+	bottom: 5%;
+	left: 5%;
+	
+}
+.inner-attorney .card .card-body .card-title{
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 32px;
+	color: #fff;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background: #0c1234;
+	
+}
+.footer p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #88C1FF;
+	text-align: center;
+}
+.footer p a{
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.login-form{
+	width: 500px;
+	margin: 20px auto;
+	background: #eee;
+	padding: 40px;
+	border-top: 5px solid #000;
+	border-right: 5px solid #000;
+	border-left: 2px solid #000;
+	border-bottom: 2px solid #000;
+	border-radius: 5px;
+}
+.login-form .avater{
+    width: 100%;
+    text-align: center;
+} 
+.login-form .avater img{
+	width: 130px;
+	height: 130px;
+	border-radius: 100%;
+	border: 2px solid #000;
+}
+.login-form .avater h1{
+	font-size: 44px;
+	line-height: 54px;
+	margin: 25px 0px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.login-form label{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: block;
+}
+.login-form .from-control{
+	width: 95%;
+	display: block;
+	padding: 10px;
+	margin: 0px 0px 20px;
+	font-size: 14px;
+	font-weight: 700;
+	border: 2px solid #000;
+}
+.login-form .btn-info{
+
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	color: #f2622c;
+	width: 95%;
+	padding:10px 0px;
+
+	
+	
+}
+.login-form .btn-info:hover{
+	background: #08c;
+	color: #000;
+	border: 2px solid #08c;
+	cursor: pointer;
+}
